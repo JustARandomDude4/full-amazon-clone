@@ -6,7 +6,7 @@ const DeliveryTo = () => {
             <MapPinIcon className="h-5 mt-3" />
             <div className="ml-1">
                 <p className="text-xs text-slate-300">Deliver to</p>
-                <p className="flex font-bold text-sm">Germany</p>
+                <p className="flex font-bold text-sm">India</p>
             </div>
         </div>
      );

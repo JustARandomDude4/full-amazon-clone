@@ -8,6 +8,7 @@ import MainSwiper from "./MainSwiper";
 import Reviews from "./reviews/Reviews";
 import SimilarSwiper from "./SimilarSwiper";
 
+
 const ProductPage = ({ product }: any) => {
     const [activeImg, setActiveImg] = useState("");
     // console.log("active: ", activeImg);

@@ -23,7 +23,7 @@ const Header = ({title, searchHandler}: any) => {
         <>
             <Head>
                 <title>{title}</title>
-                <meta name="description" content="full amazon clone React" />
+                <meta name="description" content="amazon" />
                 <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1"

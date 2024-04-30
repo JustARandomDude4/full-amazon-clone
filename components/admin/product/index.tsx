@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const AllProcuct = ({ products }: any) => {
+const AllProduct = ({ products }: any) => {
     // console.log('products', products)
 
     return (
@@ -46,4 +46,4 @@ const AllProcuct = ({ products }: any) => {
     );
 };
 
-export default AllProcuct;
+export default AllProduct;

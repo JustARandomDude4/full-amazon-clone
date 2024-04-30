@@ -1,12 +1,12 @@
 // This approach is taken from https://github.com/vercel/next.js/tree/canary/examples/with-mongodb
 import { MongoClient } from 'mongodb'
+const uri = "mongodb+srv://justarandomdude:%23Cannizzaronew4@cluster0.vriqt0v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const options = {}
 
-if (!process.env.MONGODB_URI) {
+if (!uri) {
   throw new Error('Invalid/Missing environment variable: "MONGODB_URI"')
 }
 
-const uri = process.env.MONGODB_URI
-const options = {}
 
 let client
 let clientPromise: Promise<MongoClient>
@@ -19,12 +19,12 @@ if (process.env.NODE_ENV === 'development') {
     (<any>global)._mongoClientPromise = client.connect()
   }
   clientPromise = (<any>global)._mongoClientPromise
-  console.log(process.env.MONGODB_URI)
+  console.log(uri)
 } else {
   // In production mode, it's best to not use a global variable.
   client = new MongoClient(uri, options)
   clientPromise = client.connect()
-  console.log(process.env.MONGODB_URI)
+  console.log(uri)
 }
 
 // Export a module-scoped MongoClient promise. By doing this in a

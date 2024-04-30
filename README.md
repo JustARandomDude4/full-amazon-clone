@@ -1,14 +1,4 @@
 
-# Full Amazon Clone
-
-This project is a shopping website that looks like Amazon website
-
-
-## Live Demo
-
-[Demo Link](https://full-amazon-clone.vercel.app/)
-
-
 ## 🖥️ Technologies
 
  - [Next.js]()

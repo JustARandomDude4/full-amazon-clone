@@ -31,7 +31,7 @@ const HeaderBottom = ({ handleOpenMenu }: any) => {
 
         <div className="flex md:hidden items-center p-2 bg-amazon-blue_light text-slate-200 max-md:-mt-1">
             <MapPinIcon className="h-6 mr-1" />
-            <span className="text-sm">Deliver to Germany</span>
+            <span className="text-sm">Deliver to India</span>
         </div>
     </>
     );

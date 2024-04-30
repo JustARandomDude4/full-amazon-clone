@@ -6,9 +6,9 @@ import { imgMiddleware } from "../../../middleware/imgMiddleware";
 import fs from "fs";
 
 cloudinary.config({
-    cloud_name: process.env.CLOUDINARY_NAME,
-    api_key: process.env.CLOUDINARY_KEY,
-    api_secret: process.env.CLOUDINARY_SECRET,
+    cloud_name: "dl3mxscxh",
+    api_key: "522772239751192",
+    api_secret: "8qXohydKXJ4Hlix6cPdkrnWO_I0",
 });
 
 const handler = nc()

@@ -11,7 +11,7 @@ import db from "../utils/db";
 export default function Home({ products }: any) {
     return (
         <>
-            <Header title="Full Amazon Clone React" />
+            <Header title="Better Amazon UX Model" />
             <main className="max-w-screen-2xl mx-auto bg-gray-100">
                 <CarouselContainer />
                 <CategoriesProduct products={products} />
